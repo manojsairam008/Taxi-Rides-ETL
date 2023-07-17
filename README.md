@@ -30,6 +30,6 @@ Once your docker desktop is Up, run the below commands to execute the code
 
 ## General Instructions
 
-> The entire pipeline is build in docker and uses docker resources
-> The output of the sql query is saved in results.txt file having list of records [week_of_march, PULocationIds] 
-> Data Analyst can customise the sql query (/src/resources/query.sql) and rerun the pipeline and can see their new results in same results.txt file
+- The entire pipeline is build in docker and uses docker resources
+- The output of the sql query is saved in results.txt file having list of records [week_of_march, PULocationIds] 
+- Data Analyst can customise the sql query (/src/resources/query.sql) and rerun the pipeline and can see their new results in same results.txt file
