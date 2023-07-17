@@ -1,6 +1,9 @@
 # CRUK Data Engineer assignment
 This is a ETL pipeline that fetch data from API loads it to a datalake, apply some transformations and load it to Postgres DB. Later some business analysis is performed on the DB to get business insights.
+
+
 Below is the HLD of the ETL pipeline:
+
 <img width="750" alt="hld" src="https://github.com/manojsairam008/Taxi-Rides-ETL/assets/139365266/8986b72c-8119-4c45-a10f-fe160fe8f039">
 
 
