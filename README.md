@@ -102,13 +102,9 @@ let us know in detail your past challenges and your future expectations.
 Basic setup with bootstrapping PostgreSQL with a sample table and querying it.
 
 ```
-❯ docker-compose run --rm hellodb
-Creating jlp-data-engineer-test_db_1 ... done
-Creating jlp-data-engineer-test_hellodb_run ... done
-WARNING:retry.api:connection failed: Connection refused
-	Is the server running on that host and accepting TCP/IP connections?, retrying in 1 seconds...
-Sample table has 0 rows
-
+❯ docker build .
+❯ docker-compose run --rm db
+❯ docker-compose run --rm etl
 ```
 
 ## local setup tips
