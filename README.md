@@ -1,5 +1,7 @@
 # CRUK Data Engineer assignment
-Thank you for taking the time to participate in this assignment! 
+This is a ETL pipeline that fetch data from API loads it to a datalake, apply some transformations and load it to Postgres DB. Later some business analysis is performed on the DB to get business insights.
+Below is the HLD of the ETL pipeline
+
 
 This is the technical exercise we use at CRUK to evaluate potential new candidate Data Engineers. It will allow 
 you to demonstrate that you know how to: 
